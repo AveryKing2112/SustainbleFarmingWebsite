@@ -111,6 +111,7 @@ header {
   flex-wrap: wrap;
   max-width: 1100px;
   margin: 0 auto;
+  padding: 0rem
 }
 
 /* Scales gallery images to a maximum of 300px, maintains square proportions, and applies rounded corners */
