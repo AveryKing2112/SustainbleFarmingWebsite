@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sustainable Farming - Soil Health</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .soil-hero {
+      background-color: #5a3d2b; 
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    .soil-hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .soil-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1100px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: #fefae0; 
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .soil-section:nth-child(even) {
+      background: #e9edc9; 
+    }
+    .soil-text {
+      flex: 1 1 50%;
+      padding: 1rem;
+    }
+    .soil-img {
+      flex: 1 1 40%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin: 1rem auto;
+    }
+    .soil-text h2 {
+      color: #2d572c;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="soil.html">Soil Health</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+<section class="soil-hero">
+  <h1 style="color: #ffd166;">Soil Health & Nutrients</h1>
+  <p>Understanding the foundation of healthy Soil</p>
+  <div class="hero-links">
+    <a href="https://en.jadam.kr/" class="hero-link">
+      <h3>JADAM</h3>
+      <p>Click here to learn about JADAM...</p>
+    </a>
+    <a href="https://gardenculturemagazine.com/korean-natural-farming-master-cho-biography/" class="hero-link">
+      <h3>Natural Farming</h3>
+      <p>Click here to learn about Natural Farming...</p>
+    </a>
+  </div>
+</section>
+<section class="image-gallery-container">
+  <div class="image-gallery">
+    <img src="images/pineaople.jpg" alt="pineapple">
+    <img src="images/watermelon.jpg" alt="Watermelon">
+    <img src="images/spider.jpg" alt="Spider">
+  </div>
+</section>
+
+  <!-- Soil Health Section -->
+  <section class="soil-section">
+    <div class="soil-text">
+      <h2>Soil Health</h2>
+      <p>
+        Soil health is the biggest factor in having a thriving farm. all sorts of Micobiology live under the soil and create what we call the Soil Food Web, these microbes trade and excavate nutrients from the soil in return for sugars that are produced from photosynthesis, they essentially create a network providing things that the others cant produce. when the soil food web is balanaced and full of bacteria and fungi which both are important, plants grow in perfect conditions, less stresson the plant means less pest damage, and less maintance of the plant itself because the soil and its biology do almost all the work. Microbiology, water, sunlight, and C02 are the biggest factors when it comes to soil health.
+      </p>
+    </div>
+    <img src="images/hypae.jpg" alt="Soil" class="soil-img">
+  </section>
+
+  <!-- Nutrients Section -->
+  <section class="soil-section">
+    <img src="images/nuteints.jpg" alt="Nutrients" class="soil-img">
+    <div class="soil-text">
+      <h2>Nutrients</h2>
+      <p>
+        Nutrients are what plants need to grow, but it’s not just about dumping fertilizer on the ground. In thesoil, biology breaks down organic matter and turns it into plant avaiable  nutrients. relying only on chemical and syntheic fertilzers, the balance of the soil get disrupted, the chemical kill bacteria and fungi in the soil as well soil compaction actually stops the chemical fertlizers from being broken down leaving them to just stay in the soil. Keeping the nutrients cycling naturally is better for the soil and the food it grows the main use of nutrients is actually to feed the microbiology in the soil because they do all work.
+      </p>
+    </div>
+  </section>
+
+  <!-- Composting Section -->
+  <section class="soil-section">
+    <div class="soil-text">
+      <h2>Composting</h2>
+      <p>
+        Composting gets a bad rep, most people complain how it smells, is hard to manage, and is very complicated to successfully compost organic matter. But as long as you keep a few ideas in mind its actually one of the easiest and cheapest ways to add more beneficial bacteria and nutrients to feed them. Simply get a roughly 50 50 split of Carbon material like leaf litter, or wood chips, or really anything decaying and brown. and then you need an equal mix of green nitrogen materials which could be anything from lawn clippings, food scraps, leaves from trimmed bushes, and even pesky weeds growing around your property.
+      </p>
+    </div>
+    <img src="images/composting.jpg" alt="Compost" class="soil-img">
+  </section>
+
+  
+  <footer>
+  <div class="footer-content">
+    <p>&copy; 2025 Sustainable Farming</p>
+    <form class="feedback-form">
+  <div class="form-group">
+    <label for="first-name">First Name</label>
+    <input type="text" id="first-name" name="firstName" required>
+  </div>
+  <div class="form-group">
+    <label for="last-name">Last Name</label>
+    <input type="text" id="last-name" name="lastName" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div class="form-group">
+    <label for="question">Your Questions</label>
+    <textarea id="question" name="question" rows="4" required></textarea>
+  </div>
+  <button type="submit">Submit</button>
+</form>
+  </div>
+</footer>
+</body>
+</html>
