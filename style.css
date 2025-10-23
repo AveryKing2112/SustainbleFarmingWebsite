@@ -262,3 +262,27 @@ footer {
 .contact-page-theme footer {
   padding: 1rem 0;
 }
+/* Target the buttons inside your share-buttons section */
+#share-buttons button {
+  /* Make it look good */
+  display: inline-block;
+  padding: 5px 10px; /* Space inside the button */
+  margin-right: 10px; /* Space between the buttons */
+  
+  /* Styling */
+  color: white; /* Text color */
+  background-color: #0077b5; /* A nice blue color */
+  border: none; /* Remove the default border */
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer; /* Makes it look clickable */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  
+  /* Basic animation */
+  transition: background-color 0.3s;
+}
+
+/* Change color when the user hovers over the button */
+#share-buttons button:hover {
+  background-color: #005f9371; /* Darker blue on hover */
+}
