@@ -5,20 +5,17 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
-
-/* Applies a brown background and dark gray text color to the entire webpage */
+/* Adds a brown background and dark gray text color to the entire webpage */
 body {
   background-color: #9b5b33;
   color: #333;
 }
-
-/* HEADER AND NAVIGATION */
+/* Header & navigation */
 /* Styles the header with a green background and padding for proper spacing */
 header {
   background-color: #2d572c;
   padding: 0.75rem 2rem;
 }
-
 /* Creates a centered navigation bar using flexbox with evenly spaced links */
 .nav {
   display: flex;
@@ -26,15 +23,13 @@ header {
   list-style: none;
   gap: 2rem;
 }
-
 /* Formats navigation links with white text, bold weight, and no underlines */
 .nav li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
-
-/* HERO SECTIONS */
+/* Hero sections */
 /* Styles the homepage hero section with centered text, large padding, and a background image */
 .hero {
   text-align: center;
@@ -53,23 +48,17 @@ header {
   color: white !important;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.5) !important;
 }
-
-/* COMBINED RULE FOR ALL HERO PAGE PARAGRAPHS (p) */
 .hero p,
 .hero-about p, 
 .hero-soil p, 
 .hero-contact p {
   margin-bottom: 1rem;
-  
-  
   color: white !important;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.5) !important;
 }
 .soil-hero h1 {
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.5) !important;
 }
-
-/* DEDICATED RULE TO FIX SHADOW ON SOIL HEALTH PAGE PARAGRAPHS ONLY */
 .soil-hero p {
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.5) !important;
 }
@@ -120,8 +109,7 @@ header {
   background: url("images/pineaople.jpg") no-repeat center center/cover;
   color: white;
 }
-
-/* IMAGE GALLERY */
+/* Image gallery */
 /* Creates a centered flexbox layout for the image gallery with gaps and wrapping, limited to 1100px width */
 .image-gallery {
   display: flex;
@@ -132,8 +120,6 @@ header {
   margin: 0 auto;
   padding: 1rem
 }
-
-/* Scales gallery images to a maximum of 300px, maintains square proportions, and applies rounded corners */
 .image-gallery img {
   max-width: 300px;
   width: 100%;
@@ -143,7 +129,7 @@ header {
   border-radius: 10px;
 }
 
-/* CARDS SECTION */
+/* Cards section */
 /* Centers text in the cards section and adds padding for spacing */
 .cards {
   text-align: center;
@@ -163,14 +149,14 @@ header {
     text-decoration: none; 
     font-weight: bold; /*
   
-  /* 2. Spacing and Constraints */
+  /* Spacing and constraints */
   padding: 20px;
   max-width: 1200px; 
   margin: 0 auto; 
   justify-content: center;
 }
 
-/* Sets card images to fill the width, maintain a fixed height, and fit content with rounded corners */
+/* Sets card images to fill the width, maintain a fixed height */
 .card img {
   width: 100%;
   height: 150px;
@@ -186,14 +172,14 @@ header {
   
 }
 
-/* ABOUT PAGE LAYOUT */
+/* About page layout */
 /* Applies a light green background and dark green text to the about page */
 .about-page-theme {
   background-color: #A3D18B;
   color: #3C663D;
 }
 
-/* Creates a two-column flexbox layout for the about section, centered with spacing */
+/* Creates a two-column flexbox layout for the about section */
 .about-content {
   display: flex;
   align-items: center;
@@ -203,7 +189,7 @@ header {
   margin: 2rem auto;
 }
 
-/* Sizes the about page image to half the width, ensuring proper content fit and rounded corners */
+/* Sizes the about page image to half the width */
 .about-image {
   width: 50%;
   height: auto;
@@ -211,13 +197,12 @@ header {
   object-fit: cover;
 }
 
-/* CONTACT FORM & FOOTER */
+/* Contact form & footer */
 /* Sets a light green background and dark green text for the contact page */
 .contact-page-theme {
   background-color: #A3D18B;
   color: #3C663D;
 }
-
 /* Centers the contact form section using flexbox with padding and a maximum width */
 .feedback-section {
   display: flex;
@@ -255,7 +240,6 @@ header {
   margin-bottom: 1rem;
   width: 100%;
 }
-
 /* Formats the form button with a yellow background, bold text, and rounded corners */
 .feedback-form button {
   padding: 0.5rem 1rem;
@@ -265,7 +249,6 @@ header {
   color: #333;
   font-weight: bold;
 }
-
 /* Styles the footer with a gray background, white text, and large padding */
 footer {
   text-align: left;
@@ -274,7 +257,6 @@ footer {
   background: #8b8b8b;
   color: white;
 }
-
 /* Arranges footer content in a flexbox layout, spreading items across the width */
 .footer-content {
   display: flex;
@@ -284,28 +266,27 @@ footer {
   margin: auto;
   padding: 0 20px;
 }
-
 /* Reduces footer padding on the contact page for a better look */
 .contact-page-theme footer {
   padding: 1rem 0;
 }
 /* Target the buttons inside your share-buttons section */
 #share-buttons button {
-  /* Make it look good */
   display: inline-block;
-  padding: 5px 10px; /* Space inside the button */
-  margin-right: 10px; /* Space between the buttons */
-  
+  padding: 8px 20px; 
+  margin-right: 65px;
+  margin-left: 15px; 
+
   /* Styling */
-  color: white; /* Text color */
-  background-color: #0077b5; /* A nice blue color */
-  border: none; /* Remove the default border */
-  border-radius: 5px; /* Slightly rounded corners */
-  cursor: pointer; /* Makes it look clickable */
+  color: white;
+  background-color: #0077b5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
   font-family: Arial, sans-serif;
   font-size: 16px;
   
-  /* Basic animation */
+  
   transition: background-color 0.3s;
 }
 
