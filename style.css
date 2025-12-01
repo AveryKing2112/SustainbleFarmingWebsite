@@ -196,6 +196,27 @@ header {
   border-radius: 12px;
   object-fit: cover;
 }
+.resource-list {
+    padding-left: 0;
+    list-style-type: none; /* Removes bullet points */
+}
+
+.resource-list li {
+    margin-bottom: 12px; /* Adds space between links */
+}
+
+.resource-list a {
+    text-decoration: none;
+    color: #2e8b57; /* SeaGreen color to match your theme */
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.resource-list a:hover {
+    text-decoration: underline;
+    color: #1e5b39; /* Darker green when hovering */
+}
 
 /* Contact form & footer */
 /* Sets a light green background and dark green text for the contact page */
