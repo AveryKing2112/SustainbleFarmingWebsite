@@ -177,6 +177,7 @@ header {
 .about-page-theme {
   background-color: #A3D18B;
   color: #3C663D;
+   text-shadow:#000000;
 }
 
 /* Creates a two-column flexbox layout for the about section */
@@ -207,7 +208,7 @@ header {
 
 .resource-list a {
     text-decoration: none;
-    color: #2e8b57; /* SeaGreen color to match your theme */
+    color: #000000; 
     font-weight: bold;
     font-size: 1.1rem;
     transition: color 0.3s ease;
@@ -219,7 +220,7 @@ header {
 }
 
 /* Contact form & footer */
-/* Sets a light green background and dark green text for the contact page */
+
 .contact-page-theme {
   background-color: #A3D18B;
   color: #3C663D;
@@ -287,7 +288,6 @@ footer {
   margin: auto;
   padding: 0 20px;
 }
-/* Reduces footer padding on the contact page for a better look */
 .contact-page-theme footer {
   padding: 1rem 0;
 }
@@ -306,12 +306,8 @@ footer {
   cursor: pointer;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  
-  
   transition: background-color 0.3s;
 }
-
-/* Change color when the user hovers over the button */
 #share-buttons button:hover {
   background-color: #005f9371; /* Darker blue on hover */
 }
